@@ -39,18 +39,16 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 
-function msgs() {
   var text = "";
   var i;
   var user;
   for (i = 0; i < general.length; i++) {
     user = Math.floor(Math.random() * 6);
 
-   name = 'ChatApp example';
 
-
-    text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>" + name + "</span><p>" + general[i] + "</p><hr></div><br>";
+    text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>User</span><p>" + general[i] + "</p><hr></div><br>";
+    
   }
   document.getElementById("msg").innerHTML = text;
-}
+
 </script>
