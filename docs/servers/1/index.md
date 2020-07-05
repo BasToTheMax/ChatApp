@@ -51,7 +51,7 @@ for (i = 0; i < cars.length; i++) {
     name = 'Katten zijn lief';
     break;
    case 2:
-    name = ´Huikat';
+    name = 'Huikat';
     break;
    case 3:
     name = 'BasToTheMax';
