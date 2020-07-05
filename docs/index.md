@@ -1,6 +1,6 @@
 <center>
    <h1>Servers</h1>
-   <h5>NAAM | OWNER | LEDEN | ONGELEZEN BERICHTEN</h5>
+   <p>NAAM | OWNER | LEDEN | ONGELEZEN BERICHTEN</p>
    <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue w3-padding-24">
       <p>
          <a href="{{ site.base }}/servers/1" style="text-decoration: none;">
@@ -107,3 +107,4 @@
       </p>
    </div>
 </center>
+<br><br>
