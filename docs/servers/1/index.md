@@ -39,12 +39,9 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 
-  var text = "";
+  var text = "Er zijn <b>" + general.length + "</b> berichten verzonden:<br>";
   var i;
-  var user;
   for (i = 0; i < general.length; i++) {
-    
-
     text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>User</span><p>" + general[i] + "</p><hr></div><br>";
     
   }
