@@ -3,7 +3,7 @@
   <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
   <p> ! - ALLEEN LEZEN</p>
   <a href="{{ page.path }}/channels/1" class="w3-bar-item w3-button w3-blue"># Algemeen</a>
-  <a href="{{ page.path }}/channels/2" class="w3-bar-item w3-button"># Regeld</a>
+  <a href="{{ page.path }}/channels/2" class="w3-bar-item w3-button"># Regels</a>
   <a href="{{ page.path }}/channels/3" class="w3-bar-item w3-button"># Updates</a>
 </div>
 
