@@ -14,8 +14,8 @@
   </div>
 </div>
 
-<form onchange="msgs()" onload="msgs()">
-  <input>
+<form onchange="msgs()" onload="msgs()" action="">
+  <input id="LoL" value="loading msg">
 </form>
 <div id="msg">LOADING</div>
 <!--
