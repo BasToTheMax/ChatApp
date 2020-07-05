@@ -12,13 +12,15 @@
   <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
   <div class="w3-container">
     <h1># Algemeen</h1>
-    <sub>Praat hier over algemene dingen</sub>
+    <sup>Praat hier over algemene dingen</sup>
   </div>
 </div>
 
+<div id="msg"></div>
 <div class="w3-container w3-hover">
-  <img src="{{ site.base }}/profile.jpg" style="max-width: 30px;">
+  <img src="{{ site.base }}/profile.jpg" style="max-width: 40px;">
   <p>Hallo! Hoe gaat het?</p>
+  <hr>
 </div>
 
 <script>
@@ -30,4 +32,16 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
+</script>
+
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+var text = "";
+var i;
+for (i = 0; i < cars.length; i++) {
+  '<div class="w3-container w3-hover">
+  <img src="{{ site.base }}/profile.jpg" style="max-width: 40px;">
+  <p>' + text += cars[i] + "</p><hr></div><br>";
+}
+document.getElementById("msg").innerHTML = text;
 </script>
