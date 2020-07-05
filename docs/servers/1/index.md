@@ -39,7 +39,7 @@ function w3_close() {
 var cars = ["Hoi", "Max is een kat!", "Oke", "Hhahah", "Lool", "Gu", "Llallala", "Test", "Discord"];
 var text = "";
 var i;
-for (i = 10; i < cars.length; i--) {
+for (i = 0; i < cars.length; i++) {
   text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>USER</span><p>" + cars[i] + "</p><hr></div><br>";
 }
 document.getElementById("msg").innerHTML = text;
