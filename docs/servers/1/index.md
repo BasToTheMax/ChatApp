@@ -50,18 +50,17 @@ for (i = 0; i < cars.length; i++) {
   case 1:
     name = 'Katten zijn lief';
     break;
-   case 2:
+  case 2:
     name = 'Huikat';
     break;
-   case 3:
+  case 3:
     name = 'BasToTheMax';
     break;
-    case 4:
+  case 4:
     name = Jacco';
     break;
   default:
     name = 'USER';
-    break;
 }
  
  
