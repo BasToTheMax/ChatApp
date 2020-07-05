@@ -39,8 +39,23 @@ function w3_close() {
 var cars = ["Hoi", "Max is een kat!", "Oke", "Hhahah", "Lool", "Gu", "Llallala", "Test", "Discord"];
 var text = "";
 var i;
+var user;
 for (i = 0; i < cars.length; i++) {
-  text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>USER</span><p>" + cars[i] + "</p><hr></div><br>";
+  user = Math.floor(Math.random() * 6);
+ 
+ switch(user) {
+  case 0:
+   name = 'Hoi';
+    break;
+  case 1:
+    name = 'Katten zijn lief';
+    break;
+  default:
+    name = 'USER';
+}
+ 
+ 
+  text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>" + name + "</span><p>" + cars[i] + "</p><hr></div><br>";
 }
 document.getElementById("msg").innerHTML = text;
 </script>
