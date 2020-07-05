@@ -43,8 +43,7 @@ function w3_close() {
   var i;
   var user;
   for (i = 0; i < general.length; i++) {
-    user = Math.floor(Math.random() * 6);
-
+    
 
     text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>User</span><p>" + general[i] + "</p><hr></div><br>";
     
