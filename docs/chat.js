@@ -9,5 +9,19 @@ var general = [
   "Leuk idee",
   "Oke. Ik maak de Github dinges",
   "Oke, ik bedenk alvast het uiterlijk",
-  "Ik heb een idee!!!!"
+  "Ik heb een idee!!!!",
+  "Wat dan?",
+  "Dat ben ik alweer vergeten",
+  "WATT!!!!!!!!! Nu al?",
+  "Ja",
+  "Ik ben gewoon DOM",
+  "Echt niet!",
+  "Jawel",
+  "Hoe zo",
+  "Ik ben gewoon te vergeetachtig",
+  "Doei",
+  "...",
+  "GRAPJE!!!!!!!!!!!!!11",
+  ":D hahhahaha",
+  "LoL"
 ]
