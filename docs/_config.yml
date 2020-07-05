@@ -3,3 +3,4 @@ gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/BasToTheMax/ChatApp/tree/master/docs" # the github URL for your repo
 gh_edit_branch: "" # the branch that your docs is served from
 gh_edit_view_mode: "" # "tree" or "edit" if you want the user to jump into the editor immediately
+base: "/ChatApp" # The base of the site
