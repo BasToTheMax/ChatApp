@@ -39,7 +39,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 
-function msgs() {
   var text = "";
   var i;
   var user;
@@ -51,5 +50,5 @@ function msgs() {
     
   }
   document.getElementById("msg").innerHTML = text;
-}
+
 </script>
