@@ -37,8 +37,7 @@ var cars = ["Hoi", "Max is een kat!", "Oke", "Hhahah", "Lool", "Gu", "Llallala",
 var text = "";
 var i;
 for (i = 0; i < cars.length; i++) {
-  text += "<div clas
-s=\"w3-container w3-hover\"><img src=\"{{ site.base }}/profile.jpg\" style=\"max-width: 40px;\"><p>" + cars[i] + "</p><hr></div><br>";
+  text += "<div class=\"w3-container w3-hover\"><img src=\"{{ site.base }}/profile.jpg\" style=\"max-width: 40px;\"><p>" + cars[i] + "</p><hr></div><br>";
 }
 document.getElementById("msg").innerHTML = text;
 </script>
