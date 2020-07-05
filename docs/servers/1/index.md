@@ -34,7 +34,7 @@ function w3_close() {
 }
 </script>
 
-script>
+<script>
 var cars = ["Hoi", "Max is een kat!"];
 var text = "";
 var i;
