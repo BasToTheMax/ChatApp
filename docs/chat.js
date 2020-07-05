@@ -23,5 +23,7 @@ var general = [
   "...",
   "GRAPJE!!!!!!!!!!!!!11",
   ":D hahhahaha",
-  "LoL"
+  "LoL",
+  "Zullen we wereld record meeste berichten in een kanaal verbreken?",
+  "Jaa! Goed idee!"
 ]
