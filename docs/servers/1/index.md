@@ -37,7 +37,15 @@ var cars = ["Hoi", "Max is een kat!", "Oke", "Hhahah", "Lool", "Gu", "Llallala",
 var text = "";
 var i;
 for (i = 0; i < cars.length; i++) {
-  text += "<div class=\"w3-container w3-hover\"><img src=\"{{ site.base }}/profile.jpg\" style=\"max-width: 40px;\"><p>" + cars[i] + "</p><hr></div><br>";
+  text += "<div clas
+s=\"w3-container w3-hover\"><img src=\"{{ site.base }}/profile.jpg\" style=\"max-width: 40px;\"><p>" + cars[i] + "</p><hr></div><br>";
 }
 document.getElementById("msg").innerHTML = text;
+
+var arr =  ["Gato", "oef"];
+
+for (var o = arr.length - 0; o >= 0; o--) {
+	console.log(arr[o]);
+        Text += arr[o];
+}
 </script>
