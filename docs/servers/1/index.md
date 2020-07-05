@@ -11,21 +11,19 @@
 <div class="w3-teal">
   <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
   <div class="w3-container">
-    <h1>My Page</h1>
+    <h1># Algemeen</h1>
+    <sub>Praat hier over algemene dingen</sub>
   </div>
 </div>
 
-<img src="img_car.jpg" alt="Car" style="width:80%">
-
-<div class="w3-container">
-<p>In this kat, the sidebar is hidden (style="display:none")</p>
-<p>It is shown when you click on the menu icon in the top left corner.</p>
-<p>When it is opened, it hides all the page content (style.width="100%").</p>
+<div class="w3-container w3-hover">
+  <img src="{{ site.base }}/profile.jpg" style="max-width: 30px;">
+  <p>Hallo! Hoe gaat het?</p>
 </div>
 
 <script>
 function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.width = "80%";
   document.getElementById("mySidebar").style.display = "block";
 }
 
