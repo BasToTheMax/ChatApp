@@ -43,25 +43,7 @@ var user;
 for (i = 0; i < cars.length; i++) {
   user = Math.floor(Math.random() * 6);
  
- switch(user) {
-  case 0:
-   name = 'Hoi';
-    break;
-  case 1:
-    name = 'Katten zijn lief';
-    break;
-  case 2:
-    name = 'Huikat';
-    break;
-  case 3:
-    name = 'BasToTheMax';
-    break;
-  case 4:
-    name = Jacco';
-    break;
-  default:
-    name = 'USER';
-}
+ name = 'ChatApp example';
  
  
   text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>" + name + "</span><p>" + cars[i] + "</p><hr></div><br>";
