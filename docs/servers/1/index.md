@@ -14,12 +14,15 @@
   </div>
 </div>
 
-<div id="msg"></div>
+
 <div class="w3-container w3-hover">
   <img src="{{ site.base }}/profile.jpg" style="max-width: 40px;">
+  <span>BasToTheMax</span>
   <p>Hallo! Hoe gaat het?</p>
   <hr>
 </div>
+
+
 
 <script>
 function w3_open() {
@@ -30,14 +33,4 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
-</script>
-
-<script>
-var cars = ["Hoi", "Max is een kat!", "Oke", "Hhahah", "Lool", "Gu", "Llallala", "Test", "Discord"];
-var text = "Welkom!";
-var i;
-for (i = 10; i < cars.length; i--) {
-  text += "<div class=\"w3-container w3-hover\"><img src=\"{{ site.base }}/profile.jpg\" style=\"max-width: 40px;\"><p>" + cars[i] + "</p><hr></div><br>";
-}
-document.getElementById("msg").innerHTML = text;
 </script>
