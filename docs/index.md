@@ -1,7 +1,7 @@
 <center>
    <h1>Servers</h1>
-   <h4>NAAM | OWNER | LEDEN | ONGELEZEN BERICHTEN</h4>
-   <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue w3-padding-24 w3-">
+   <h5>NAAM | OWNER | LEDEN | ONGELEZEN BERICHTEN</h5>
+   <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue w3-padding-24">
       <p>
          <a href="{{ site.base }}/servers/1" style="text-decoration: none;">
             ClausCity | Rolly18 | 18 | <span class="w3-badge">1</span>
