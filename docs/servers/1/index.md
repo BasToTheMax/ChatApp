@@ -14,6 +14,9 @@
   </div>
 </div>
 
+<form onchange="msgs()" onload="msgs()">
+  <input>
+</form>
 <div id="msg">LOADING</div>
 <!--
 
@@ -25,7 +28,7 @@
 </div>
 -->
 
-
+<script src="{{ site.base }}/chat.js"></script>
 <script>
 function w3_open() {
   document.getElementById("mySidebar").style.width = "80%";
@@ -36,17 +39,18 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 
-var cars = ["Hoi", "Max is een kat!", "Oke", "Hhahah", "Lool", "Gu", "Llallala", "Test", "Discord"];
-var text = "";
-var i;
-var user;
-for (i = 0; i < cars.length; i++) {
-  user = Math.floor(Math.random() * 6);
- 
- name = 'ChatApp example';
- 
- 
-  text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>" + name + "</span><p>" + cars[i] + "</p><hr></div><br>";
+function msgs() {
+  var text = "";
+  var i;
+  var user;
+  for (i = 0; i < general.length; i++) {
+    user = Math.floor(Math.random() * 6);
+
+   name = 'ChatApp example';
+
+
+    text += "<div class=\"w3-container w3-hover\"><img src=\"/ChatApp/profile.jpg\" style=\"max-width: 40px;\"><span>" + name + "</span><p>" + general[i] + "</p><hr></div><br>";
+  }
+  document.getElementById("msg").innerHTML = text;
 }
-document.getElementById("msg").innerHTML = text;
 </script>
